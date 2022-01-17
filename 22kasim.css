@@ -1,0 +1,94 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+    background-color: darkgray;
+    font-size: 24px;
+}
+html {
+    font-size: 16px;
+}
+
+div {
+    background-color: beige;
+}
+.div-main1 {
+    font-size: 12px;
+}
+.div1-p {
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+.div-main2 {
+  font-size: 52px;
+}
+.div2-p {
+   padding: 0.5rem;
+   font-size: 1.5rem;
+}
+.image {
+    width: 33vw;
+}
+
+.div-main3 {
+    max-width: 500px;
+}
+.inline {
+    width: 150px; /*calismayan kosul */
+    height: 50px; /*calismayan kosul */
+    padding: 10px; /*calisan kosul */
+    margin: 5px; /*  alt ve ustte calismayan kosul , sag ve sol calisir  */
+    background-color: chartreuse;
+}
+.block {
+    width: 150px; /*calisan kosul */
+    height: 50px; /*calisan kosul */
+    padding: 10px; /*calisan kosul */
+    margin: 5px; /*  calisan */
+    background-color: chartreuse;
+}
+.inlineblock {
+    display: inline-block;
+    width: 150px; /*calisan kosul */
+    height: 50px; /*calisan kosul */
+    padding: 10px; /*calisan kosul */
+    margin: 5px; /*  calisan */
+    background-color: chartreuse;
+
+}
+.image1 {
+    float: left;
+}
+.float {
+    width: 30%;
+    height: 50px;
+    margin: 2px;
+    float: left;
+    background-color: crimson;
+    overflow: hidden;
+}
+.imagex {
+    width: 100%;
+    clear: both;
+}
+.clear {
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+}
+.yeniblock {
+    display: inline-block;
+    width: 29%;
+    margin: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+.yenialigncenter {
+    margin: 0 auto;
+    text-align: center;
+}
+
